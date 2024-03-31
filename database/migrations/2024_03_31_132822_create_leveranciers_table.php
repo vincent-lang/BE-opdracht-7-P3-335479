@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('leveranciers', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('Naam');
             $table->string('ContactPersoon');
             $table->string('LeverancierNummer');
             $table->string('Mobiel');
-            $table->foreignId('ContactId');
+            $table->integer('contact_id')->references('id')->on('contacts');
             $table->timestamps();
         });
     }

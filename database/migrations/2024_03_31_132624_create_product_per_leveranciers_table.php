@@ -12,9 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('product_per_leveranciers', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('LeverancierId');
-            $table->foreignId('ProductId');
+            $table->increments('id');
+            $table->integer('leverancier_id')->references('id')->on('leveranciers');
+            $table->integer('product_id')->references('id')->on('products');
             $table->date('DatumLevering');
             $table->integer('Aantal');
             $table->date('DatumEerstVolgendeLevering')->nullable();

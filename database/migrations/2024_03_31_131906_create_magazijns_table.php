@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('magazijns', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('ProductId');
+            $table->increments('id');
+            $table->integer('product_id')->references('id')->on('products');
             $table->float('VerpakkingsEenheid');
             $table->integer('AantalAanwezig')->nullable();
             $table->timestamps();

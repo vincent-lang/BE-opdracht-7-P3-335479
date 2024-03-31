@@ -16,4 +16,14 @@ class ProductPerLeverancier extends Model
         'Aantal',
         'DatumEerstVolgendeLevering'
     ];
+
+    public function Leverancier()
+    {
+        return $this->belongsTo(Leverancier::class);
+    }
+
+    public function Product()
+    {
+        return $this->belongsTo(Product::class);
+    }
 }

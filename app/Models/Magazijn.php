@@ -14,4 +14,9 @@ class Magazijn extends Model
         'VerpakkingsEenheid',
         'AantalAanwezig'
     ];
+
+    public function product()
+    {
+        return $this->belongsTo(Product::class);
+    }
 }

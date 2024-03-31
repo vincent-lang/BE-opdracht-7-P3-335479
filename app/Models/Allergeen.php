@@ -13,4 +13,9 @@ class Allergeen extends Model
         'Naam',
         'Omschrijving'
     ];
+
+    public function productenPerAllergeen()
+    {
+        return $this->hasMany(ProductPerAllergeen::class);
+    }
 }

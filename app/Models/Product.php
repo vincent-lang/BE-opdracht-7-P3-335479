@@ -13,4 +13,19 @@ class Product extends Model
         'Naam',
         'Barcode'
     ];
+
+    public function productenPerLeverancier()
+    {
+        return $this->hasMany(ProductPerLeverancier::class);
+    }
+
+    public function productenPerAllergeen()
+    {
+        return $this->hasMany(ProductPerAllergeen::class);
+    }
+
+    public function Magazijn()
+    {
+        return $this->hasOne(Magazijn::class);
+    }
 }

@@ -15,4 +15,9 @@ class Contact extends Model
         'Postcode',
         'Stad'
     ];
+
+    public function Leverancier()
+    {
+        return $this->hasOne(Leverancier::class);
+    }
 }

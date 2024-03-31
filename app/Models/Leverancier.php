@@ -16,4 +16,14 @@ class Leverancier extends Model
         'Mobiel',
         'ContactId'
     ];
+
+    public function contact()
+    {
+        return $this->belongsTo(Contact::class);
+    }
+
+    public function producten()
+    {
+        return $this->hasMany(ProductPerLeverancier::class);
+    }
 }

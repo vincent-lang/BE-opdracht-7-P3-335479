@@ -13,67 +13,67 @@ class MagazijnSeeder extends Seeder
     public function run(): void
     {
         \App\Models\Magazijn::create([
-            'ProductId' => 1,
+            'Product_id' => 1,
             'VerpakkingsEenheid' => 5,
             'AantalAanwezig' => 453
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 2,
+            'Product_id' => 2,
             'VerpakkingsEenheid' => 2.5,
             'AantalAanwezig' => 400
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 3,
+            'Product_id' => 3,
             'VerpakkingsEenheid' => 5,
             'AantalAanwezig' => 1
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 4,
+            'Product_id' => 4,
             'VerpakkingsEenheid' => 1,
             'AantalAanwezig' => 800
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 5,
+            'Product_id' => 5,
             'VerpakkingsEenheid' => 3,
             'AantalAanwezig' => 234
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 6,
+            'Product_id' => 6,
             'VerpakkingsEenheid' => 2,
             'AantalAanwezig' => 345
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 7,
+            'Product_id' => 7,
             'VerpakkingsEenheid' => 1,
             'AantalAanwezig' => 795
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 8,
+            'Product_id' => 8,
             'VerpakkingsEenheid' => 10,
             'AantalAanwezig' => 233
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 9,
+            'Product_id' => 9,
             'VerpakkingsEenheid' => 2.5,
             'AantalAanwezig' => 123
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 10,
+            'Product_id' => 10,
             'VerpakkingsEenheid' => 3,
             'AantalAanwezig' => null
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 11,
+            'Product_id' => 11,
             'VerpakkingsEenheid' => 2,
             'AantalAanwezig' => 367
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 12,
+            'Product_id' => 12,
             'VerpakkingsEenheid' => 1,
             'AantalAanwezig' => 467
         ]);
         \App\Models\Magazijn::create([
-            'ProductId' => 13,
+            'Product_id' => 13,
             'VerpakkingsEenheid' => 5,
             'AantalAanwezig' => 20
         ]);

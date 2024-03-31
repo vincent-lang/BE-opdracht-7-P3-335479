@@ -13,52 +13,52 @@ class ProductPerAllergeenSeeder extends Seeder
     public function run(): void
     {
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 1,
-            'AllergeenId' => 2
+            'Product_id' => 1,
+            'Allergeen_id' => 2
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 1,
-            'AllergeenId' => 1
+            'Product_id' => 1,
+            'Allergeen_id' => 1
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 1,
-            'AllergeenId' => 3
+            'Product_id' => 1,
+            'Allergeen_id' => 3
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 3,
-            'AllergeenId' => 4
+            'Product_id' => 3,
+            'Allergeen_id' => 4
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 6,
-            'AllergeenId' => 5
+            'Product_id' => 6,
+            'Allergeen_id' => 5
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 9,
-            'AllergeenId' => 2
+            'Product_id' => 9,
+            'Allergeen_id' => 2
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 9,
-            'AllergeenId' => 5
+            'Product_id' => 9,
+            'Allergeen_id' => 5
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 10,
-            'AllergeenId' => 2
+            'Product_id' => 10,
+            'Allergeen_id' => 2
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 12,
-            'AllergeenId' => 4
+            'Product_id' => 12,
+            'Allergeen_id' => 4
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 13,
-            'AllergeenId' => 1
+            'Product_id' => 13,
+            'Allergeen_id' => 1
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 13,
-            'AllergeenId' => 4
+            'Product_id' => 13,
+            'Allergeen_id' => 4
         ]);
         \App\Models\ProductPerAllergeen::create([
-            'ProductId' => 13,
-            'AllergeenId' => 5
+            'Product_id' => 13,
+            'Allergeen_id' => 5
         ]);
     }
 }

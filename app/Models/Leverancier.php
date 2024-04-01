@@ -14,7 +14,7 @@ class Leverancier extends Model
         'ContactPersoon',
         'LeverancierNummer',
         'Mobiel',
-        'ContactId'
+        'contact_id'
     ];
 
     public function contact()

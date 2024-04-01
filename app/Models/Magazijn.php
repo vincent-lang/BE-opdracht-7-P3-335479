@@ -10,7 +10,7 @@ class Magazijn extends Model
     use HasFactory;
 
     protected $fillable = [
-        'ProductId',
+        'product_id',
         'VerpakkingsEenheid',
         'AantalAanwezig'
     ];

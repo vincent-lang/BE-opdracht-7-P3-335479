@@ -10,8 +10,8 @@ class ProductPerAllergeen extends Model
     use HasFactory;
 
     protected $fillable = [
-        'ProductId',
-        'AllergeenId'
+        'product_id',
+        'allergeen_id'
     ];
 
     public function product()

@@ -10,8 +10,8 @@ class ProductPerLeverancier extends Model
     use HasFactory;
 
     protected $fillable = [
-        'LeverancierId',
-        'ProductId',
+        'leverancier_id',
+        'product_id',
         'DatumLevering',
         'Aantal',
         'DatumEerstVolgendeLevering'
